@@ -1,8 +1,4 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
+
 
 nav{
     float: left;
@@ -11,9 +7,18 @@ nav{
     line-height: 75px;
     padding: 0px 30px;
    
-    background-image: linear-gradient(#033747, #012733);
+    background-image: linear-gradient(#1b4cef9a, #012733);
 }
-
+ 
+h1{
+    color: rgb(166, 163, 247);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.one{
+    color: rgb(122, 184, 255);
+    
+}
 .logo{
     font-size: 30px;
     font-weight: bold;
@@ -66,7 +71,7 @@ button{
     margin-left:900px;
     
     color: rgb(21, 74, 74);
-    /* background-color:rgb(164, 44, 44); */
+     background-color:rgb(164, 44, 44); 
     background-color: white;
     border-radius: 12px;
     text-decoration: none;
@@ -76,7 +81,7 @@ button{
 .container{
     width: 100%;
     min-height:90ch ;
-    background-image:url(images/hero.jpg);
+    background-image:url(images/wallpaper3.jpg);
     background-size: 100%;
     background-position: center;
     padding: 10px 10px;
@@ -88,4 +93,66 @@ button{
     margin-left: 7%;
     max-width: 625px;
     font-size: large;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+footer{
+    background-color: #c0bfbf;
+}
+.footerContanier{
+    width:100%;
+    padding:2px;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 1.2em;
+    color: #111;
+    opacity: 0.9;
+}
+/* hover effects on social media icons */
+.socialIcons a:hover{
+    background-color: #64c3f0;
+    transition: 0.5s;
+}
+.socialIcons a:hover{
+    color: aliceblue;
+    transition: 0.5s;
+}
+.footerNav{
+    margin: 05 px 0;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+}
+.footerNav ul li a{
+    color: white;
+    margin: 10px;
+    text-decoration:underline;
+    font-size: 1em;
+    opacity:0.7;
+    transition: 0.5s;
+}
+.footerNav ul li a{
+    opacity: 1;
+}
+.footerBottom{
+    padding: 5px;
+    text-align: center;
+}
+.footerBottom{
+    color: white;
 }
