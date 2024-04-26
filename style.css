@@ -28,7 +28,7 @@ h1{
     cursor: pointer;
 }
 
-/*navbar{
+.navbar{
     
     color: aliceblue;
     font-size: 30px;
@@ -36,7 +36,7 @@ h1{
     text-decoration: none;
     padding: 0px 30px;
 
-}*/
+}
 
 nav li{
      display: inline-bloc;
