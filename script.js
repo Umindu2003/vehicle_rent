@@ -21,6 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     }, 100);
   });
+<<<<<<< HEAD
   /*vehicle card slider*/
    
 var swiper = new Swiper(".slide-content", {
@@ -52,3 +53,18 @@ var swiper = new Swiper(".slide-content", {
       },
   },
 });
+=======
+  function search() {
+    var location = document.getElementById("location").value;
+    var date = document.getElementById("date").value;
+    var time = document.getElementById("time").value;
+    var vehicleType = document.getElementById("vehicle-type").value;
+  
+    // Perform search based on inputs
+    console.log("Location: " + location);
+    console.log("Date: " + date);
+    console.log("Time: " + time);
+    console.log("Vehicle Type: " + vehicleType);
+  }
+  
+>>>>>>> dd9382b261a9e263e0aa2de4f0c06ebf0b0de3d5

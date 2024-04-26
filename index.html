@@ -37,6 +37,19 @@
        </div>
     </div>
        
+    <div class="search-container">
+      <input type="text" id="location" placeholder="Location">
+      <input type="date" id="date">
+      <input type="time" id="time">
+      <select id="vehicle-type">
+        <option value="car">Car</option>
+        <option value="motorcycle">Motorcycle</option>
+        <option value="bicycle">Bicycle</option>
+      </select>
+      <button onclick="search()">Search</button>
+    </div>
+  
+
     <div class="counter-container">
         <div class="counter-column">
           <div class="counter" id="counter1">0</div>
@@ -53,7 +66,7 @@
         <div class="counter-column">
           <div class="counter" id="counter4">0</div>
           <div class="counter-label">Partnership</div>
-        </div>
+        </div> 
       </div>
       <script src="script.js"></script>
 
