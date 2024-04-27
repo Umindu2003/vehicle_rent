@@ -237,7 +237,7 @@ footer{
   .slider-container {
     width:100%;
     overflow: hidden;
-    margin-left: 15px;
+    margin-left: 27px;
   }
   
   .slider {
@@ -248,6 +248,7 @@ footer{
     flex:10 10 auto;
     width: 50%;
     transition: transform 0.9s ease;
+    
   }
   
   .card {
@@ -262,24 +263,50 @@ footer{
     align-items: center;
     justify-content: center;
     border-radius: 22px;
-    box-shadow:  4px 8px rgb(143, 223, 255)
+    box-shadow:  4px 8px rgb(143, 223, 255);
+
+    
   }
 
-  /*
-  .icon .fa-users {
-    padding-left: 89px;
-    padding-top: 36px;
-    position: absolute;
-    font-size: 30px;
-  }*/
+  /*icon list */
 
-  .icon .fa-map-marker-alt{
+  .icon .fa-location-arrow{
     padding-left: 96px;
     padding-top: 36px;
     position: absolute;
     font-size: 32px;
     color: #0da5ec;
    
+  }
+  
+  .icon .fa-calendar-alt{
+    position: absolute;
+    padding-left: 96px;
+    padding-top: 36px;
+    color: #0da5ec;
+    font-size: 32px;
+  }
+  .icon .fa-clock{
+    position: absolute;
+    padding-left: 96px;
+    padding-top: 36px;
+    color: #0da5ec;
+    font-size: 32px;
+
+  }
+  .icon .fa-car{
+    position: absolute;
+    padding-left: 96px;
+    padding-top: 36px;
+    color: #0da5ec;
+    font-size: 32px;
+  }
+  .icon .fa-mouse-pointer{
+    position: absolute;
+    padding-left: 96px;
+    padding-top: 36px;
+    color: #0da5ec;
+    font-size: 32px;
   }
 
   
