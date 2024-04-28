@@ -17,8 +17,20 @@ h1{
 }
 .one{
     color: rgb(122, 184, 255);
+    margin-left: 100px;
+    margin-top: -19px;
+    font-size: 20px;
+    font-weight: bold;
     
 }
+.content{
+  color: rgba(246, 246, 246, 0.985);
+  margin-top: 14%;
+  margin-left: 7%;
+  max-width: 625px;
+  font-size: 30px;
+}
+
 .logo{
     font-size: 30px;
     font-weight: bold;
@@ -26,6 +38,50 @@ h1{
     color: rgb(255, 255, 255);
     letter-spacing: 1.5px;
     cursor: pointer;
+}
+.btn{
+  position: absolute;
+  font-family: "";
+  font-size: 20px;
+  font-weight: bold;
+  background: #ffd849;
+  width:144px;
+  height: 49px;
+  padding: 14px;
+  text-align: center;
+  text-decoration: none;
+  color: #212121;
+  border: 10px;
+  margin-top: -180px;
+  margin-left: 106px;
+  border-radius: 12px;
+  animation: animate 2s linear infinite;
+  outline-offset: 100px;
+  
+  
+}
+@keyframes animate{
+  0%{
+    background-color: rgb(101, 173, 171);
+  }
+  20%{
+    background-color: green;
+  }
+  40%{
+    background-color: rgb(245, 112, 4);
+  }
+  60%{
+    background-color: rgb(241, 220, 87);
+  }
+  80%{
+    background-color: rgb(6, 211, 20);
+  }
+  100%{
+    background-color: rgb(254, 164, 228);
+  }
+  1200%{
+    background-color: rgb(9, 183, 236);
+  }
 }
 
 .navbar{
@@ -87,25 +143,22 @@ button{
     padding: 10px 10px;
     background-size: cover;
 }
+/* footer*/
 
-.content{
-    color: rgba(0, 0, 0, 0.985);
-    margin-top: 14%;
-    margin-left: 7%;
-    max-width: 625px;
-    font-size: large;
-}
+
 *{
     padding: 0;
     margin: 0;
     box-sizing:border-box;
 }
 footer{
-    background-color: #c0bfbf;
+  background-color: #c0bfbf;
+    
 }
 .footerContanier{
     width:100%;
     padding:2px;
+    
 }
 .socialIcons{
     display: flex;
@@ -136,6 +189,7 @@ footer{
 }
 .footerNav{
     margin: 05 px 0;
+    
 }
 .footerNav ul{
     display: flex;
@@ -314,3 +368,39 @@ footer{
     font-size: 32px;
   }
   /*FAQ section */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*contact us */
+  .contact{
+    font-size: 25px;
+    padding: 20px;
+    padding-top: 120px;
+    padding-left: 70px;
+    font-weight: bold;
+  }
+  .icon .fa-map-marker{
+    color: #0da5ec;
+  }
