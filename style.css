@@ -264,8 +264,13 @@ footer{
     justify-content: center;
     border-radius: 22px;
     box-shadow:  4px 8px rgb(143, 223, 255);
-
-    
+   
+  }
+  .card:hover{
+    transform-style: preserve-3d;
+    background-color: rgba(14, 165, 207, 0.71);
+    border-radius: 6px;
+    transition: ease-in 0.3s;
   }
 
   /*icon list */
@@ -308,8 +313,4 @@ footer{
     color: #0da5ec;
     font-size: 32px;
   }
-
-  
-  
-  
-  
+  /*FAQ section */
