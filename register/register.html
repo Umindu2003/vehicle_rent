@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <!-- link the css file -->
+    <link rel="stylesheet" href="reg_styles.css">
+</head>
+
+<body>
+
+    <!-- login, register, terms box  -->
+    <div class="wrapper">
+
+        <!-- close button  -->
+        <span class="icon-close">
+            <ion-icon name="close"></ion-icon> 
+        </span>
+
+
+        <!----- Register form ----->
+        <div class="form-box register">
+            <h2>Registration</h2>
+            <!-- ??? -->
+            <form class="form" action="#">
+
+                <div class="form1">
+
+                    <div class="input-box">                 <!-- ??   -->
+                        <span class="icon">
+                            <ion-icon name="person"></ion-icon>
+                        </span>
+                        <input type="text" required>
+                        <!-- ??   -->
+                        <label>User Name</label>
+                    </div>                    
+    
+                    <div class="input-box">                <!-- ??  -->
+                        <span class="icon">
+                            <ion-icon name="mail"></ion-icon>
+                        </span>
+                        <input type="email" required>
+                        <!-- ??  -->
+                        <label>Email</label>
+                    </div>
+    
+                    <div class="input-box">
+                        <!-- ??  -->
+                        <span class="icon">
+                            <ion-icon name="lock"></ion-icon>
+                        </span>
+                        <input type="password" required>
+                        <!-- ??  -->
+                        <label>Password</label>
+                    </div>
+
+                </div>
+                
+
+                <div class="form2">
+
+                    <div class="first-last">
+
+                        <div class="input-box">                 <!-- ??   -->
+                            <span class="icon">
+                                <ion-icon name="person"></ion-icon>
+                            </span>
+                            <input type="text" required>
+                            <!-- ??   -->
+                            <label>First Name</label>
+                        </div>
+                        <div class="input-box">                 <!-- ??  -->
+                            <span class="icon">
+                                <ion-icon name="person"></ion-icon>
+                            </span>
+                            <input type="text" required>
+                             <!-- ??   -->
+                            <label>Last Name</label>
+                        </div>
+
+                    </div>
+
+                    <div class="gender">
+                        Gender:
+                        <input type="radio" name="gender" value="Male"> <label>Male</label>
+                        <input type="radio" name="gender" value="Female"> <label>Female</label>
+                    </div>
+
+                    <div class="NIC-DOB">
+
+                        <div class="input-box">                <!-- ??  -->
+                            <span class="icon">
+                                <ion-icon name="card"></ion-icon>
+                            </span>
+                            <input type="text" required>
+                            <!-- ??  -->
+                            <label>NIC</label>
+                        </div>
+    
+                        <div class="input-box">                 <!-- ??   -->
+                            <span class="icon">
+                                <ion-icon name="calendar"></ion-icon>
+                            </span>
+                            <input type="text" required>
+                            <!-- ??   -->
+                            <label>DOB</label>
+                        </div>
+
+                    </div>
+
+                    <div class="input-box">                <!-- ??  -->
+                        <span class="icon">
+                            <ion-icon name="call"></ion-icon>
+                        </span>
+                        <input type="text" required>
+                        <!-- ??  -->
+                        <label>Mobile</label>
+                    </div>
+
+                    <div class="input-box">                <!-- ??  -->
+                        <span class="icon">
+                            <ion-icon name="home"></ion-icon>
+                        </span>
+                        <input type="text" required>
+                        <!-- ??  -->
+                        <label>Address</label>
+                    </div>
+
+                </div>
+
+
+                <!-- Register submit button  -->
+                <button type="submit" class="btn">Register</button>
+
+                <div class="login-reg">
+                    <!-- ??  -->
+                    <p>Already have an account? <a href="../login/login.html" class="login-link">Login</a></p>
+                </div>
+
+            </form>
+            
+        </div>
+        <!-- End Register  -->
+
+    </div>
+
+    <script src="login-reg.js"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+</body>
+</html>
