@@ -152,7 +152,11 @@ button{
     box-sizing:border-box;
 }
 footer{
+<<<<<<< HEAD
   background-color: #0e0238;
+=======
+  background-color: #cdcccc;
+>>>>>>> c13406d67e0a93d1ddb980e7df27e3dc10c0b9d5
     
 }
 .footerContanier{
@@ -397,10 +401,107 @@ footer{
   .contact{
     font-size: 25px;
     padding: 20px;
-    padding-top: 120px;
-    padding-left: 70px;
+    padding-top: 110px;
+    padding-left: 190px;
     font-weight: bold;
   }
-  .icon .fa-map-marker{
-    color: #0da5ec;
+  .icon .fa-map-marker-alt{
+    color: #090909;
+    font-size: 27px;
+    position: absolute;
+    padding-left: 96px;
   }
+  .location{
+    font-size: 23px;
+    margin-left: 130px;
+    font-weight: bold;
+  }
+  .text{
+    font-size: 16px;
+    margin-left: 11px;
+    margin-top: 12px;
+
+  }
+
+  .icon .fa-phone{
+    color: #000000;
+    font-size: 27px;
+    position: absolute;
+    padding-left: 94px;
+    margin-top: 30px;
+  }
+  .tele{
+    font-size: 23px;
+    margin-left: 130px;
+    margin-top: 31px;
+    font-weight: bold;
+  }
+  .teleP{
+    font-size: 18px;
+    margin-left: 11px;
+    margin-top: 18px;
+    
+  }
+
+  .mail{
+    font-size: 23px;
+    margin-left: 132px;
+    margin-top: 31px;
+    font-weight: bold;
+  }
+  .icon .fa-envelope{
+    color: #151515;
+    font-size: 27px;
+    position: absolute;
+    padding-left: 94px;
+    margin-top: 30px;
+  }
+  .mailP{
+    font-size: 18px;
+    margin-left: 11px;
+    margin-top: 18px;
+  }
+
+  .icon .fa-facebook{
+    color: #1e1f1f;
+    font-size: 27px;
+    position: absolute;
+    padding-left: 94px;
+    margin-top: 50px;
+  }
+  .icon .fa-twitter{
+    color: #1e1f1f;
+    font-size: 27px;
+    position: absolute;
+    padding-left: 150px;
+    margin-top: 50px;
+  }
+  .icon .fa-whatsapp{
+    color: #1e1f1f;
+    font-size: 27px;
+    position: absolute;
+    padding-left: 206px;
+    margin-top: 50px;
+  }
+  .icon .fa-google{
+    color: #1e1f1f;
+    font-size: 27px;
+    position: absolute;
+    padding-left: 262px;
+    margin-top: 50px;
+  }
+
+  .all{
+    padding-left: 100px;
+    padding-top: 40px;
+    
+  }
+  body{
+    background-color: #ffffff;
+  }
+
+  
+  /*contact us */
+
+  
+  
