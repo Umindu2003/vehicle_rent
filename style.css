@@ -400,9 +400,10 @@ footer{
     padding-top: 110px;
     padding-left: 190px;
     font-weight: bold;
+    color: white;
   }
   .icon .fa-map-marker-alt{
-    color: #090909;
+    color: #f8f6f6;
     font-size: 27px;
     position: absolute;
     padding-left: 96px;
@@ -411,16 +412,19 @@ footer{
     font-size: 23px;
     margin-left: 130px;
     font-weight: bold;
+    color: #f8f6f6;
+
   }
   .text{
     font-size: 16px;
     margin-left: 11px;
     margin-top: 12px;
+    color: #f8f6f6;
 
   }
 
   .icon .fa-phone{
-    color: #000000;
+    color: #ffffff;
     font-size: 27px;
     position: absolute;
     padding-left: 94px;
@@ -431,12 +435,13 @@ footer{
     margin-left: 130px;
     margin-top: 31px;
     font-weight: bold;
+    color: #f8f6f6;
   }
   .teleP{
     font-size: 18px;
     margin-left: 11px;
     margin-top: 18px;
-    
+    color: #f8f6f6;
   }
 
   .mail{
@@ -444,9 +449,10 @@ footer{
     margin-left: 132px;
     margin-top: 31px;
     font-weight: bold;
+    color: #f8f6f6;
   }
   .icon .fa-envelope{
-    color: #151515;
+    color: #ffffff;
     font-size: 27px;
     position: absolute;
     padding-left: 94px;
@@ -456,31 +462,32 @@ footer{
     font-size: 18px;
     margin-left: 11px;
     margin-top: 18px;
+    color: #f8f6f6;
   }
 
   .icon .fa-facebook{
-    color: #1e1f1f;
+    color: #f8f8f8;
     font-size: 27px;
     position: absolute;
     padding-left: 94px;
     margin-top: 50px;
   }
   .icon .fa-twitter{
-    color: #1e1f1f;
+    color: #ffffff;
     font-size: 27px;
     position: absolute;
     padding-left: 150px;
     margin-top: 50px;
   }
   .icon .fa-whatsapp{
-    color: #1e1f1f;
+    color: #fcffff;
     font-size: 27px;
     position: absolute;
     padding-left: 206px;
     margin-top: 50px;
   }
   .icon .fa-google{
-    color: #1e1f1f;
+    color: #dfdfdf;
     font-size: 27px;
     position: absolute;
     padding-left: 262px;
@@ -490,7 +497,7 @@ footer{
   .all{
     padding-left: 100px;
     padding-top: 40px;
-    
+    color: #f8f6f6;
   }
   body{
     background-color: #ffffff;

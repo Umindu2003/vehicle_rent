@@ -1,10 +1,16 @@
+
+body{
+    background-image: url(images/wallpaper3.0.jpg);
+    
+}
+
 .contai1{
     max-width: 600px;
     margin: 50px auto;
     padding: 20px;
-    background-color: #ffffff;
+  
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(3, 2, 91, 0.1);
     margin-top: 130px;
     height: 443px;
     margin-left: 200px;
@@ -14,7 +20,7 @@
 }
 h1 {
     text-align: center;
-    color: #333;
+    color: #ffffff;
 }
 
 .form-group {
@@ -24,7 +30,7 @@ h1 {
 label {
     display: block;
     margin-bottom: 5px;
-    color: #555;
+    color: #ffffff;
 }
 
 input[type="text"],
@@ -61,10 +67,15 @@ button:hover {
 }
 .imeg{
     position: absolute;
-    width: 10px;
-    height: 90px;
+    width: 8px;
+    height: 30px;
     margin-left: 902px;
-    margin-top: 190px;
+    margin-top: 130px;
+}
+.png{
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
 .icon .fa-map-pin{
     font-size: 40px;
@@ -73,6 +84,12 @@ button:hover {
     margin-top: -89px;
     color: #d01010;
 }
+<<<<<<< HEAD
 body{
     background-image: url(images/wallpaper3.jpg);
 }
+=======
+footer{
+    background-color: #0e0238;
+}
+>>>>>>> fe1a09daa9d04e32894f2b6724b3056abf29287a
