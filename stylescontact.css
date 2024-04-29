@@ -9,7 +9,9 @@
     height: 443px;
     margin-left: 200px;
 }
-
+.icon-contact{
+    color: #fff;
+}
 h1 {
     text-align: center;
     color: #333;
@@ -70,4 +72,7 @@ button:hover {
     position: absolute;
     margin-top: -89px;
     color: #d01010;
+}
+body{
+    background-image: url(images/wallpaper3.jpg);
 }
