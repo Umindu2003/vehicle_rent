@@ -1,0 +1,86 @@
+/* payment page */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url(images/wallpaper3.jpg);
+
+}
+
+.pcontainer{
+    width: 750px;
+    height: 500px;
+    border: 1px solid;
+    background-color: rgb(236, 239, 241);
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    justify-content:space-around;
+    border-radius: 40px;
+}
+
+.container h1{
+    text-align: center;
+}
+
+.first-row{
+     display: flex;
+     
+}
+
+.owner{
+    width: 100%;
+    margin-right: 40px;
+}
+
+.input-field{
+    border: 1px solid #999;
+}
+
+.input-field input{
+    width: 100%;
+    border:none;
+    outline: none;
+    padding: 10px;
+}
+
+.selection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.selection select{
+    padding: 10px 20px;
+}
+
+a{
+    background-color: rgb(33, 6, 155);
+    color: rgb(209, 235, 255);
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+a:hover{
+    background-color: rgb(9, 112, 215);
+}
+
+.cards img{
+    width: 100px;
+}
+/* .confirm{
+    border-radius: 40px;
+} */
