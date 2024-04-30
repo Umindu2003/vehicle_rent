@@ -6,6 +6,8 @@
         <link rel="stylesheet" href="styles.css">
         <script src="script.js"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="stylesfaq.css">
+
 
     </head>
     <body>
@@ -34,8 +36,7 @@
         <p class="one">This service is particular popular for travelers,tourists <br>or individuals who reqire tempary transportation <br>
             without the commitment of ownership.</p>
        </div>
-    </div>
-      <a href="#" class="btn">RENT NOW</a>
+      <a href="Vehicle.html" class="btn">RENT NOW</a>
     <!-- search bar -->    
 
     <div class="search-container">
@@ -43,11 +44,16 @@
       <input type="date" id="date">
       <input type="time" id="time">
       <select id="vehicle-type">
-        <option value="car">Car</option>
-        <option value="motorcycle">Motorcycle</option>
-        <option value="bicycle">Bicycle</option>
+        <option value="car">Compact Car</option>
+        <option value="motorcycle">Luxury Car</option>
       </select>
       <button onclick="search()">Search</button>
+      <script>
+        function search() {
+          //connect search button to vehical.html file
+          window.location.href = "Vehicle.html";
+        }
+      </script>
     </div>
   
     <div class="work">
@@ -81,6 +87,38 @@
   </div>
 
    <!-- create FAQ -->     
+
+        
+<div class="con">
+  <div class="section">
+  <h2>Frequently Asked Questions</h2>
+</div>
+  <div class="accordion">
+    <div class="accordio-item">
+      <button class="accordion-button">What Document do i nedd to rent a vehicle?</button>
+      <div class="accordion-answer">
+        you'll nedd a valid driver's license, A credit card for payment.
+      </div>
+    </div>
+    <div class="accordio-item">
+      <button class="accordion-button">Why do we use it?</button>
+      <div class="accordion-answer">
+        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+      </div>
+    </div>
+    <div class="accordio-item">
+      <button class="accordion-button">Where does it come from?</button>
+      <div class="accordion-answer">
+        Contrary to popular belief, Lorem Ipsum is not simply random text.
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="scriptfaq.js"></script>
+
+
+
 
  <!-- create counter -->    
     <div class="counter-container">

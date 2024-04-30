@@ -20,7 +20,10 @@ document.addEventListener('DOMContentLoaded', function() {
         clearInterval(interval);
       }
     }, 100);
+
+
   });
+
 
 
   
