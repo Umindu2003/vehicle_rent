@@ -13,8 +13,8 @@
             </div>
             <ul>
                 <li>
-                <a href="register/register.html">Register</a> 
-                <a href="login/login.html">Login</a>
+                <a href="register/register.php">Register</a> 
+                <a href="login/login.php">Login</a>
                 <a href="#">about</a>
                 <a href="#">contact</a>
                 <a href="#">vehical</a>
