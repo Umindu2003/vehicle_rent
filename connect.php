@@ -1,9 +1,9 @@
 <?php
 
-// $con=new mysql('localhost','root','','crudoperation');
-$con = new \MySQLi('localhost', 'root', '', 'crudoperation');
+// $con=new mysqli('localhost','root','','iwtassign');
+$con = new \MySQLi('localhost', 'root', '', 'iwtassign');
 if($con){
-    echo "Connection Successful";
+    // echo "Connection Successful";
 }
 else{
     die(mysqli_error($con));
