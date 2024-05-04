@@ -105,11 +105,11 @@ body {
     text-align: center;
 }
 
-.form2 {
+/* .form2 {
     padding: 0 10px 0 10px;
     border: 1px solid #162938;
     border-radius: 6px;
-}
+} */
 
 .first-last, .NIC-DOB {
     display: flex;
@@ -130,6 +130,58 @@ body {
     margin-left: 10px;
     cursor: pointer;
 }
+
+/* ------- DOB input ------------ */
+.form2 .DOB {
+    /* ?? */
+    position: relative;
+    width: 100%;
+    height: 50px;
+    /* ?? */
+    border-bottom: 2px solid #162938;
+    /* ?? */
+    margin: 30px 0;
+}
+
+.form2 .DOB input {
+    width: 75%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    /* ?? */
+    outline: none;
+    font-size: 1em;
+    color: #162938;
+    font-weight: 600;
+    /* ?? */
+    /* padding: 0 35px 0 5px; */
+    cursor: pointer;
+    color: #94939396;
+}
+
+.form2 .DOB label {
+    /* ?? */
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    /* ?? */
+    transform: translateY(-50%);
+    /* ?? */
+    font-size: 1em;
+    color: #162938;
+    font-weight: 500;
+    /* ?? */
+    pointer-events: none;
+    /* For .input-box input:focus~label, .input-box input:valid~label */
+    transition: .5s;
+}
+
+/* ???? */
+.form2 .DOB input:focus,
+.form2 .DOB input:valid {
+    color: #162938;
+}
+/* ------------ end of DOB ------------ */
 
 .input-box {
     /* ?? */
