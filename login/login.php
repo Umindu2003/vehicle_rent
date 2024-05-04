@@ -1,3 +1,30 @@
+<?php
+require '../connect.php';
+
+if(isset($_POST["submit"])){
+    $email = $_POST["email"];
+    $password = $_POST["password"];
+    $result = mysqli_query($con, "SELECT * FROM reg_user WHERE email = '$email'");
+    $row = mysqli_fetch_assoc($result);
+    if(mysqli_num_rows($result) > 0){
+        if($password == $row["password"]){
+            $_SESSION["login"] = true;
+            $_SESSION["id"] = $row["id"];
+            header("Location: index.php");
+        }
+        else{
+            echo
+            "<script> alert('Wrong Password'); </script>";
+        }
+    }
+    else{
+    echo
+    "<script> alert('User Not Registered'); </script>";
+    }
+}
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -23,13 +50,13 @@
         <div class="form-box login">
             <h2>Login</h2>
             <!-- ??? -->
-            <form action="#">
+            <form action="#" method="post">
 
                 <div class="input-box">
                     <span class="icon">
                         <ion-icon name="mail"></ion-icon>
                     </span>
-                    <input type="text" required>
+                    <input type="text" required name="email">
                     <label>Email</label>
                 </div>
 
@@ -38,7 +65,7 @@
                     <span class="icon">
                         <ion-icon name="lock"></ion-icon>
                     </span>
-                    <input type="password" required>
+                    <input type="password" required name="password">  
                     <!-- ??  -->
                     <label>Password</label>
                 </div>
@@ -51,11 +78,11 @@
                 </div>
 
                 <!-- Login submit button  -->
-                <button type="submit" class="btn">Login</button>
+                <button type="submit" name="submit" class="btn">Login</button>
 
                 <div class="login-reg">
                     <!-- ??  -->
-                    <p>Don't have an account? <a href="../register/register.html" class="register-link">Register</a></p>
+                    <p>Don't have an account? <a href="../register/register.php" class="register-link">Register</a></p>
                 </div>
 
             </form>
