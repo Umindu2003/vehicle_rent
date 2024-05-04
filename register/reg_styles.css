@@ -23,7 +23,7 @@ body {
     padding: 50px;
     /* ?? */
     min-height: 100vh;
-    background: url(regBackground.jpg);
+    background: url(wallpaper3.jpg);
     /* background: url(termsBackground.jpg); */
     background-repeat: no-repeat;   /*
     /* ?? */
@@ -152,7 +152,7 @@ body {
     transform: translateY(-50%);
     /* ?? */
     font-size: 1em;
-    color: #162938;
+    color: #919293;
     font-weight: 500;
     /* ?? */
     pointer-events: none;
@@ -175,7 +175,7 @@ body {
     /* ?? */
     outline: none;
     font-size: 1em;
-    color: #162938;
+    color: #b1b3b4;
     font-weight: 600;
     /* ?? */
     padding: 0 35px 0 5px;
