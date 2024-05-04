@@ -43,7 +43,7 @@ body {
     /* ?? */ 
     background: transparent;
     /* ?? */
-    border: 2px solid rgba(255, 255, 255, .5);
+    border: 2px solid rgba(25, 24, 24, 0.5);
     /* ?? */
     border-radius: 20px;
     /* ?? */
@@ -152,7 +152,7 @@ body {
     transform: translateY(-50%);
     /* ?? */
     font-size: 1em;
-    color: #919293;
+    color: #9c9d9e;
     font-weight: 500;
     /* ?? */
     pointer-events: none;
@@ -186,7 +186,7 @@ body {
     position: absolute;
     right: 8px;
     font-size: 1.2em;
-    color: #162938;
+    color: #9c9d9e;
     /* ?? */
     line-height: 57px;
 }
@@ -209,7 +209,7 @@ body {
 }
 
 .btn:hover {
-    background: #ffffffec;
+    background: #888889ec;
     border: 2px solid #162938;
     color: #162938;
 }
