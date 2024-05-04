@@ -1,6 +1,11 @@
 
 body{
     background-image: url(images/wallpaper3.0.jpg);
+    background-repeat: no-repeat;   /*
+    /* ?? */
+    background-size: cover;
+    /* ?? */
+    background-position: center;
     
 }
 
@@ -84,12 +89,6 @@ button:hover {
     margin-top: -89px;
     color: #d01010;
 }
-<<<<<<< HEAD
 body{
     background-image: url(images/wallpaper3.jpg);
 }
-=======
-footer{
-    background-color: #0e0238;
-}
->>>>>>> fe1a09daa9d04e32894f2b6724b3056abf29287a
