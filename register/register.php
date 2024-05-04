@@ -1,3 +1,51 @@
+
+<?php
+require '../connect.php';
+// include '../connect.php';
+
+if(isset($_POST["submit"])){
+    $email = $_POST["email"];
+    $password = $_POST["password"];
+    $f_name = $_POST["f_name"];
+    $l_name = $_POST["l_name"];
+    $gender = $_POST["gender"];
+    $NIC = $_POST["NIC"];
+    $DOB = $_POST["DOB"];
+    $mobile = $_POST["mobile"];
+    $address = $_POST["address"];
+    $confirmpassword = $_POST["confirm_password"];
+    $duplicate = mysqli_query($con, "SELECT * FROM reg_user WHERE email = '$email'");
+    if(mysqli_num_rows($duplicate) > 0){
+        echo
+        "<script> alert('Email is Alreaady Taken'); </scrip>";
+    }
+    else{
+        if($password == $confirmpassword){
+            $query = "INSERT INTO reg_user VALUES('','$email','$password','$f_name','$l_name','$gender','$NIC','$DOB','$mobile','$address')";
+            mysqli_query($con,$query);
+            echo
+            "<script> alert('Registration Successful'); </script>";
+        }
+        else{ 
+            echo
+            "<script> alert('Passwords Do Not Match'); </script>";
+        }
+    }
+
+
+
+    // $sql="insert into `crud` (email,password,mobile) values ('$email','$password','$mobile')";
+    // $result=mysqli_query($con,$sql);
+    // if($result){
+    //     echo "Data inserted successfully";
+    // }
+    // else{
+    //     die(mysqli_error($con));
+    // }
+}
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -24,24 +72,24 @@
         <div class="form-box register">
             <h2>Registration</h2>
             <!-- ??? -->
-            <form class="form" action="#">
+            <form class="form" action="#" method="post" >
 
                 <div class="form1">
 
-                    <div class="input-box">                 <!-- ??   -->
+                    <!-- <div class="input-box">                 
                         <span class="icon">
                             <ion-icon name="person"></ion-icon>
                         </span>
                         <input type="text" required>
-                        <!-- ??   -->
+                        
                         <label>User Name</label>
-                    </div>                    
+                    </div>                     -->
     
                     <div class="input-box">                <!-- ??  -->
                         <span class="icon">
                             <ion-icon name="mail"></ion-icon>
                         </span>
-                        <input type="email" required>
+                        <input type="email" required name="email" autocomplete="off">
                         <!-- ??  -->
                         <label>Email</label>
                     </div>
@@ -51,9 +99,19 @@
                         <span class="icon">
                             <ion-icon name="lock"></ion-icon>
                         </span>
-                        <input type="password" required>
+                        <input type="password" required name="password" autocomplete="off">
                         <!-- ??  -->
                         <label>Password</label>
+                    </div>
+
+                    <div class="input-box">
+                        <!-- ??  -->
+                        <span class="icon">
+                            <ion-icon name="lock"></ion-icon>
+                        </span>
+                        <input type="password" required name="confirm_password" autocomplete="off">
+                        <!-- ??  -->
+                        <label>Confirm Password</label>
                     </div>
 
                 </div>
@@ -67,7 +125,7 @@
                             <span class="icon">
                                 <ion-icon name="person"></ion-icon>
                             </span>
-                            <input type="text" required>
+                            <input type="text" required name="f_name" autocomplete="off">
                             <!-- ??   -->
                             <label>First Name</label>
                         </div>
@@ -75,7 +133,7 @@
                             <span class="icon">
                                 <ion-icon name="person"></ion-icon>
                             </span>
-                            <input type="text" required>
+                            <input type="text" required name="l_name" autocomplete="off">
                              <!-- ??   -->
                             <label>Last Name</label>
                         </div>
@@ -84,8 +142,8 @@
 
                     <div class="gender">
                         Gender:
-                        <input type="radio" name="gender" value="Male"> <label>Male</label>
-                        <input type="radio" name="gender" value="Female"> <label>Female</label>
+                        <input type="radio" required name="gender" value="male"> <label>Male</label>
+                        <input type="radio" required name="gender" value="female"> <label>Female</label>
                     </div>
 
                     <div class="NIC-DOB">
@@ -94,18 +152,19 @@
                             <span class="icon">
                                 <ion-icon name="card"></ion-icon>
                             </span>
-                            <input type="text" required>
+                            <input type="text" required name="NIC" autocomplete="off">
                             <!-- ??  -->
                             <label>NIC</label>
                         </div>
     
-                        <div class="input-box">                 <!-- ??   -->
-                            <span class="icon">
+                        <div class="DOB">                 <!-- ??   -->
+                            <!-- <span class="icon">
                                 <ion-icon name="calendar"></ion-icon>
-                            </span>
-                            <input type="text" required>
+                            </span> -->
+                            DOB:
+                            <input type="date" required name="DOB" autocomplete="off">
                             <!-- ??   -->
-                            <label>DOB</label>
+                            <!-- <label>DOB</label> -->
                         </div>
 
                     </div>
@@ -114,7 +173,7 @@
                         <span class="icon">
                             <ion-icon name="call"></ion-icon>
                         </span>
-                        <input type="text" required>
+                        <input type="text" required name="mobile" autocomplete="off">
                         <!-- ??  -->
                         <label>Mobile</label>
                     </div>
@@ -123,7 +182,7 @@
                         <span class="icon">
                             <ion-icon name="home"></ion-icon>
                         </span>
-                        <input type="text" required>
+                        <input type="text" required name="address" autocomplete="off">
                         <!-- ??  -->
                         <label>Address</label>
                     </div>
@@ -132,11 +191,11 @@
 
 
                 <!-- Register submit button  -->
-                <button type="submit" class="btn">Register</button>
+                <button type="submit" name="submit" class="btn">Register</button>
 
                 <div class="login-reg">
                     <!-- ??  -->
-                    <p>Already have an account? <a href="../login/login.html" class="login-link">Login</a></p>
+                    <p>Already have an account? <a href="../login/login.php" class="login-link">Login</a></p>
                 </div>
 
             </form>
