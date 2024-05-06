@@ -49,7 +49,7 @@ if(isset($_POST['submit'])){
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Update Profile</title>
     <!-- link the css file -->
-    <link rel="stylesheet" href="reg_styles.css">
+    <link rel="stylesheet" href="update.css">
 </head>
 
 <body>
@@ -65,9 +65,9 @@ if(isset($_POST['submit'])){
                 <div class="form1">
     
                     <div class="input-box">                
-                        <span class="icon">
+                        <!-- <span class="icon">
                             <ion-icon name="mail"></ion-icon>
-                        </span>
+                        </span> -->
                         <input type="email" id="email" name="email" autocomplete="off" value=<?php echo $email;?>>
                         <label>Email</label>
 
@@ -76,9 +76,9 @@ if(isset($_POST['submit'])){
                     </div>
     
                     <div class="input-box">
-                        <span class="icon">
+                        <!-- <span class="icon">
                             <ion-icon name="lock"></ion-icon>
-                        </span>
+                        </span> -->
                         <input type="password" id="password" name="password" autocomplete="off" value=<?php echo $password;?>>
                         <label>Password</label>
 
@@ -94,16 +94,16 @@ if(isset($_POST['submit'])){
                     <div class="first-last">
 
                         <div class="input-box">                 
-                            <span class="icon">
+                            <!-- <span class="icon">
                                 <ion-icon name="person"></ion-icon>
-                            </span>
+                            </span> -->
                             <input type="text" name="f_name" autocomplete="off" value=<?php echo $f_name;?>>
                             <label>First Name</label>
                         </div>
                         <div class="input-box">                 
-                            <span class="icon">
+                            <!-- <span class="icon">
                                 <ion-icon name="person"></ion-icon>
-                            </span>
+                            </span> -->
                             <input type="text" name="l_name" autocomplete="off" value=<?php echo $l_name;?>>
                             <label>Last Name</label>
                         </div>
@@ -119,9 +119,9 @@ if(isset($_POST['submit'])){
                     <div class="NIC-DOB">
 
                         <div class="input-box">                
-                            <span class="icon">
+                            <!-- <span class="icon">
                                 <ion-icon name="card"></ion-icon>
-                            </span>
+                            </span> -->
                             <input type="text" name="NIC" autocomplete="off" value=<?php echo $NIC;?>>
                             <label>NIC</label>
                         </div>
@@ -130,27 +130,25 @@ if(isset($_POST['submit'])){
                             <!-- <span class="icon">
                                 <ion-icon name="calendar"></ion-icon>
                             </span> -->
-                            DOB:
                             <input type="date" name="DOB" autocomplete="off" value=<?php echo $DOB;?>>
-                            
-                            <!-- <label>DOB</label> -->
+                            <label>DOB</label>
                         </div>
 
                     </div>
 
                     <div class="input-box">               
-                        <span class="icon">
+                        <!-- <span class="icon">
                             <ion-icon name="call"></ion-icon>
-                        </span>
+                        </span> -->
                         <input type="text" name="mobile" autocomplete="off" value=<?php echo $mobile;?>>
                     
                         <label>Mobile</label>
                     </div>
 
                     <div class="input-box">               
-                        <span class="icon">
+                        <!-- <span class="icon">
                             <ion-icon name="home"></ion-icon>
-                        </span>
+                        </span> -->
                         <input type="text" name="address" autocomplete="off" value=<?php echo $address;?>>
                     
                         <label>Address</label>

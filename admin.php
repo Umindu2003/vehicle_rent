@@ -11,6 +11,7 @@ include 'connect.php';
     <meta charset="UTF-8">
     <title>Admin Portal</title>
     <link rel="stylesheet" href="admin.css">
+    <!-- <link rel="stylesheet" href="admin2.css"> -->
 </head>
 <body>
     <div class="admin-portal">

@@ -13,8 +13,6 @@
             </div>
             <ul class="menu">
                 
-                <li clas="menu1"><a href="register.html">Register</a> </li>
-                <li clas="menu1"><a href="signup.html">Sign-up</a></li>
                 <li clas="menu1"><a href="aboutus.html">About-us</a></li>
                 <li clas="menu1"><a href="contact.html">Contact</a></li>
                 <li clas="menu1"><a href="vehicle.html">Vehicle</a></li>

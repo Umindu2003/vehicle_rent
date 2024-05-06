@@ -10,7 +10,7 @@ if(isset($_POST["submit"])){
         if($password == $row["password"]){
             $_SESSION["login"] = true;
             $_SESSION["id"] = $row["id"];
-            header("Location: index.php");
+            header("Location: ../vehicle.php");
         }
         else{
             echo
@@ -41,10 +41,12 @@ if(isset($_POST["submit"])){
     <!-- login, register, terms box  -->
     <div class="wrapper">
 
-        <!-- close button  -->
-        <span class="icon-close">
-            <ion-icon name="close"></ion-icon> 
-        </span>
+        <a href="../index.php">
+            <!-- close button  -->
+            <span class="icon-close">
+                <ion-icon name="close"></ion-icon> 
+            </span>
+        </a>
 
         <!----- Login form ----->
         <div class="form-box login">
@@ -88,7 +90,7 @@ if(isset($_POST["submit"])){
 
                 <div class="login-reg">
                     <!-- ??  -->
-                    <p>Don't have an account? <a href="../register/register.php" class="register-link">Register</a></p>
+                    <p>Don't have an account? <a href="../terms$cond/terms&cond.php" class="register-link">Register</a></p>
                 </div>
 
             </form>

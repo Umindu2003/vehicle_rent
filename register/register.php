@@ -25,6 +25,7 @@ if(isset($_POST["submit"])){
             mysqli_query($con,$query);
             echo
             "<script> alert('Registration Successful'); </script>";
+            header("Location: ../vehicle.php");
         }
         else{ 
             echo
@@ -62,10 +63,12 @@ if(isset($_POST["submit"])){
     <!-- login, register, terms box  -->
     <div class="wrapper">
 
-        <!-- close button  -->
-        <span class="icon-close">
-            <ion-icon name="close"></ion-icon> 
-        </span>
+        <a href="../index.php">
+            <!-- close button  -->
+            <span class="icon-close">
+                <ion-icon name="close"></ion-icon> 
+            </span>
+        </a>
 
 
         <!----- Register form ----->

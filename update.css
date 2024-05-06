@@ -1,0 +1,116 @@
+/* reg_styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-box {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.form-box h2 {
+    text-align: center;
+    color: #333;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-box {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: all 0.3s;
+}
+
+.input-box input:focus {
+    border-color: #007BFF;
+}
+
+.input-box label {
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    background: #fff;
+    padding: 0 5px;
+    color: #aaa;
+    font-size: 12px;
+}
+
+/* .input-box .icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #aaa;
+}
+
+.input-box .icon ion-icon {
+    font-size: 20px;
+} */
+
+.first-last {
+    display: flex;
+    gap: 10px;
+}
+
+.NIC-DOB {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    padding: 10px;
+    /* background-color: #007BFF; */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    background-color: #333;
+    color: white;
+}
+
+.gender {
+    margin-bottom: 15px;
+}
+
+.gender input {
+    margin-right: 5px;
+}
+
+.DOB {
+    display: flex;
+    align-items: center;
+}
+
+#email_error,
+#password_error {
+    font-size: 12px;
+    padding-top: 5px;
+}
