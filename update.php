@@ -10,7 +10,7 @@ $email = $row['email'];
 $password = $row['password'];
 $f_name = $row['f_name'];
 $l_name = $row['l_name'];
-$gender = $row['gender'];
+// $gender = $row['gender'];
 $NIC = $row['NIC'];
 $DOB = $row['DOB'];
 $mobile = $row['mobile'];
@@ -22,7 +22,7 @@ if(isset($_POST['submit'])){
     $password = $_POST['password'];
     $f_name = $_POST['f_name'];
     $l_name = $_POST['l_name'];
-    $gender = $_POST['gender'] ?? '';
+    // $gender = $_POST['gender'] ?? '';
     $NIC = $_POST['NIC'] ?? '';
     $DOB = $_POST['DOB'] ?? '';
     $mobile = $_POST['mobile'] ?? '';
@@ -31,7 +31,7 @@ if(isset($_POST['submit'])){
     $sql="update `reg_user` set user_id=$id, email='$email', password='$password', f_name='$f_name', l_name='$l_name', gender='$gender', NIC='$NIC', DOB='$DOB', mobile='$mobile', address='$address' where user_id=$id";
     $result=mysqli_query($con, $sql);
     if($result){
-        echo "Updated Successfully";
+        // echo "Updated Successfully";
         header('location:admin.php');
     }else{
         die(mysqli_error($con));
@@ -110,11 +110,11 @@ if(isset($_POST['submit'])){
 
                     </div>
 
-                    <div class="gender">
+                    <!-- <div class="gender">
                         Gender:
                         <input type="radio" name="gender" value="male"> <label>Male</label>
                         <input type="radio" name="gender" value="female"> <label>Female</label>
-                    </div>
+                    </div> -->
 
                     <div class="NIC-DOB">
 
@@ -132,27 +132,27 @@ if(isset($_POST['submit'])){
                             </span> -->
                             DOB:
                             <input type="date" name="DOB" autocomplete="off" value=<?php echo $DOB;?>>
-                            <!-- ??   -->
+                            
                             <!-- <label>DOB</label> -->
                         </div>
 
                     </div>
 
-                    <div class="input-box">                <!-- ??  -->
+                    <div class="input-box">               
                         <span class="icon">
                             <ion-icon name="call"></ion-icon>
                         </span>
                         <input type="text" name="mobile" autocomplete="off" value=<?php echo $mobile;?>>
-                        <!-- ??  -->
+                    
                         <label>Mobile</label>
                     </div>
 
-                    <div class="input-box">                <!-- ??  -->
+                    <div class="input-box">               
                         <span class="icon">
                             <ion-icon name="home"></ion-icon>
                         </span>
                         <input type="text" name="address" autocomplete="off" value=<?php echo $address;?>>
-                        <!-- ??  -->
+                    
                         <label>Address</label>
                     </div>
 
