@@ -13,7 +13,8 @@ include '../connect.php';
 </head>
 
 <body>
-    <button class="lgout">Log out</button>
+
+    <div class="btn" onclick="location.href='../pre_index.php'"><button class="lgout">Log out</button></div>
 
     <div class="admin-portal">
         <h1>Registered User Details</h1>
@@ -81,7 +82,6 @@ include '../connect.php';
 
 
         </table>
-        
         
 
     </div>

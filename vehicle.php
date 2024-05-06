@@ -17,10 +17,10 @@
             </div>
             <ul class="menu">
                 
-                <li clas="menu1"><a href="aboutus.html">About-us</a></li>
-                <li clas="menu1"><a href="contact.html">Contact</a></li>
-                <li clas="menu1"><a href="vehicle.html">Vehicle</a></li>
-                <li clas="menu1"><a href="index.html">Home</a></li>
+                <li clas="menu1"><a href="Aboutus.php">About-us</a></li>
+                <li clas="menu1"><a href="Contact Us/contact.php">Contact</a></li>
+                <li clas="menu1"><a href="vehicle.php">Vehicle</a></li>
+                <li clas="menu1"><a href="index.php">Home</a></li>
             </ul>
         </nav>
     </div>
@@ -56,7 +56,7 @@
                     <br><br>
                     <p style="text-align: center;"> <b>RS.7000.00 / Day</b></style></p>
                 </p>
-                <a href="Rent_details.html" class="btn">Rent</a>
+                <a href="Rent_Details/VRindex.php" class="btn">Rent</a>
             </div>
         </div>
 
@@ -71,7 +71,7 @@
                     <br><br>
                     <p style="text-align: center;"> <b>RS.9400.00 / Day</b></style></p>
                 </p>
-                <a href="Rent_details.html" class="btn">Rent</a>
+                <a href="Rent_Details/VRindex.php" class="btn">Rent</a>
             </div>
         </div>
 
@@ -86,7 +86,7 @@
                     <br><br>
                     <p style="text-align: center;"> <b>RS.95000.00 / Day</b></style></p>
                 </p>
-                <a href="Rent_details.html" class="btn">Rent</a>
+                <a href="Rent_Details/VRindex.php" class="btn">Rent</a>
             </div>
         </div>
     </div>
@@ -106,7 +106,7 @@
                     <br><br>
                     <p style="text-align: center;"> <b>RS.6000.00 / Day</b></style></p>
                 </p>
-                <a href="Rent_details.html" class="btn">Rent</a>
+                <a href="Rent_Details/VRindex.php" class="btn">Rent</a>
             </div>
         </div>
 
@@ -121,7 +121,7 @@
                     <br><br>
                     <p style="text-align: center;"> <b>RS.7800.00 / Day</b></style></p>
                 </p>
-                <a href="Rent_details.html" class="btn">Rent</a>
+                <a href="Rent_Details/VRindex.php" class="btn">Rent</a>
             </div>
         </div>
 
@@ -136,7 +136,7 @@
                     <br><br>
                     <p style="text-align: center;"> <b>RS.5800.00 / Day</b></style></p>
                 </p>
-                <a href="Rent_details.html" class="btn">Rent</a>
+                <a href="Rent_Details/VRindex.php" class="btn">Rent</a>
             </div>
         </div>
 
@@ -151,7 +151,7 @@
                     <br><br>
                     <p style="text-align: center;"> <b>RS.5500.00 / Day</b></style></p>
                 </p>
-                <a href="Rent_details.html" class="btn">Rent</a>
+                <a href="Rent_Details/VRindex.php" class="btn">Rent</a>
             </div>
         </div>
     </div>
@@ -170,7 +170,7 @@
                     <br><br>
                     <p style="text-align: center;"> <b>RS.10,000.00 / Day</b></style></p>
                 </p>
-                <a href="Rent_details.html" class="btn">Rent</a>
+                <a href="Rent_Details/VRindex.php" class="btn">Rent</a>
             </div>
         </div>
 
@@ -185,7 +185,7 @@
                     <br><br>
                     <p style="text-align: center;"> <b>RS.11,500.00 / Day</b></style></p>
                 </p>
-                <a href="Rent_details.html" class="btn">Rent</a>
+                <a href="Rent_Details/VRindex.php" class="btn">Rent</a>
             </div>
         </div>
 
@@ -200,7 +200,7 @@
                     <br><br>
                     <p style="text-align: center;"> <b>RS.13,000.00 / Day</b></style></p>
                 </p>
-                <a href="Rent_details.html" class="btn">Rent</a>
+                <a href="Rent_Details/VRindex.php" class="btn">Rent</a>
             </div>
         </div>
 
@@ -215,7 +215,7 @@
                     <br><br>
                     <p style="text-align: center;"> <b>RS.13,000.00 / Day</b></style></p>
                 </p>
-                <a href="Rent_details.html" class="btn">Rent</a>
+                <a href="Rent_Details/VRindex.php" class="btn">Rent</a>
             </div>
         </div>
     </div>

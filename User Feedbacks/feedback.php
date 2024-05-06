@@ -2,7 +2,7 @@
 $servername="localhost";
 $username="root";
 $password="";
-$dbname="feedbackdata";
+$dbname="pearl_drive";
 $link=mysqli_connect($servername,$username,$password,$dbname);
 $con=mysqli_select_db($link,$dbname);
 

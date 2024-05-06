@@ -20,10 +20,10 @@
             </div>
             <ul class="menu">
                 
-                <li clas="menu1"><a href="aboutus.html">About-us</a></li>
-                <li clas="menu1"><a href="contact.html">Contact</a></li>
-                <li clas="menu1"><a href="vehicle.html">Vehicle</a></li>
-                <li clas="menu1"><a href="index.html">Home</a></li>
+                <li clas="menu1"><a href="Aboutus.php">About-us</a></li>
+                <li clas="menu1"><a href="Contact Us/contact.php">Contact</a></li>
+                <li clas="menu1"><a href="vehicle.php">Vehicle</a></li>
+                <li clas="menu1"><a href="index.php">Home</a></li>
             </ul>
         </nav>
     </div>

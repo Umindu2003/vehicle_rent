@@ -2,7 +2,7 @@
 $servername="localhost";
 $username="root";
 $password="";
-$dbname="vehicle_rent";
+$dbname="pearl_drive";
 $link=mysqli_connect($servername,$username,$password,$dbname);
 $con=mysqli_select_db($link,$dbname);
 
@@ -51,7 +51,7 @@ else{
                 <input type="submit" name="submit2" value="Delete">
                 <input type="submit" name="submit3" value="Update">
                 <input type="submit" name="submit4" value="Display">
-                <a href="home.php">GO</a>
+                <button onclick="window.location.href = '../payment.php';">Go</button>
             </div>
 
             

@@ -19,12 +19,8 @@
             </div>
             <ul class="menu">
                 
-                <li clas="menu1"><a href="terms&cond/terms&cond.php">Register</a> </li>
+                <li clas="menu1"><a href="terms&cond/terms&cond.php">Register</a></li>
                 <li clas="menu1"><a href="login/login.php">Login</a></li>
-                <li clas="menu1"><a href="Aboutus.php">About-us</a></li>
-                <li clas="menu1"><a href="Contact Us/contact.php">Contact</a></li>
-                <li clas="menu1"><a href="Vehicle.php">Vehicle</a></li>
-                <li clas="menu1"><a href="index.php">Home</a></li>
            
             </ul>
         </nav>
@@ -36,25 +32,8 @@
         <p class="one">This service is particular popular for travelers,tourists <br>or individuals who reqire tempary transportation <br>
             without the commitment of ownership.</p>
        </div>
-      <a href="Vehicle.php" class="btn">RENT NOW</a>
-    <!-- search bar -->    
+      <a href="Vehicle.php" class="btn">Register</a>
 
-    <div class="search-container">
-      <input type="text" id="location" placeholder="Location">
-      <input type="date" id="date">
-      <input type="time" id="time">
-      <select id="vehicle-type">
-        <option value="car">Compact Car</option>
-        <option value="motorcycle">Luxury Car</option>
-      </select>
-      <button onclick="search()">Search</button>
-      <script>
-        function search() {
-          //connect search button to vehical.html file
-          window.location.href = "Vehicle.html";
-        }
-      </script>
-    </div>
   
     <div class="work">
       <p><h2>HOW IT IS WORK</h2></p>

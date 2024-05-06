@@ -25,7 +25,7 @@ if(isset($_POST["submit"])){
             mysqli_query($con,$query);
             echo
             "<script> alert('Registration Successful'); </script>";
-            header("Location: ../vehicle.php");
+            header("Location: ../index.php");
         }
         else{ 
             echo

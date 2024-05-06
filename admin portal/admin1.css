@@ -15,15 +15,20 @@ body {
     justify-content: center;
     /* align-items: center; */
     min-height: 100vh;
-    background: url(background.png);
+    background: url(wallpaper3.jpg);
     background-repeat: no-repeat;   
     background-size: cover;
     background-position: center;
 
 }
 
+
+h1 {
+    color: #ffffff;
+}
+
 .admin-portal {
-    padding: 20px;
+    padding:50px;
 }
 
 .user-table {
@@ -83,3 +88,13 @@ button a:hover {
     background-color: #e0e0e0;
 }
 
+.btn {
+    position: absolute; 
+    top: 30px; 
+    right: 70px; 
+}
+
+.btn button:hover{
+    cursor: pointer;
+    background-color: #cac3c3;
+}

@@ -10,7 +10,7 @@ if(isset($_POST["submit"])){
         if($password == $row["password"]){
             $_SESSION["login"] = true;
             $_SESSION["id"] = $row["id"];
-            header("Location: ../vehicle.php");
+            header("Location: ../index.php");
         }
         else{
             echo
@@ -82,7 +82,7 @@ if(isset($_POST["submit"])){
                     <!-- remember me check box -->
                     <label> <input type="checkbox">Remember me</label>
                     <!-- forgot password link -->
-                    <a href="#">Forgot Password?</a>
+                    <a href="forgotPassword.php">Forgot Password?</a>
                 </div>
 
                 <!-- Login submit button  -->
