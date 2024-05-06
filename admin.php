@@ -4,15 +4,14 @@ include 'connect.php';
 ?>
 
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Admin Portal</title>
-    <link rel="stylesheet" href="admin.css">
-    <!-- <link rel="stylesheet" href="admin2.css"> -->
+    <link rel="stylesheet" href="admin1.css">
 </head>
+
 <body>
     <div class="admin-portal">
         <h1>Registered User Details</h1>
@@ -80,6 +79,9 @@ include 'connect.php';
 
 
         </table>
+        
+        <button>Log out</button>
+
     </div>
 </body>
 </html>
