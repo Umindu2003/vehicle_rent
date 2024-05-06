@@ -3,5 +3,5 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$database = "purledrive";
+$database = "pearl_drive";
 ?>

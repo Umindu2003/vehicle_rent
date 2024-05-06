@@ -63,7 +63,7 @@ if(isset($_POST["submit"])){
     <!-- login, register, terms box  -->
     <div class="wrapper">
 
-        <a href="../index.php">
+        <a href="../pre_index.php">
             <!-- close button  -->
             <span class="icon-close">
                 <ion-icon name="close"></ion-icon> 

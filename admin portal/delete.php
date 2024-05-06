@@ -8,7 +8,7 @@ if(isset($_GET['deleteid'])){
     $result=mysqli_query($con, $sql);
     if($result){
         // echo "Delete Successful";
-        header('location:admin.php');
+        header('location: admin.php');
     }
     else{
         die(mysqli_error($con));

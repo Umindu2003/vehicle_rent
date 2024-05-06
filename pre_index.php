@@ -32,7 +32,7 @@
         <p class="one">This service is particular popular for travelers,tourists <br>or individuals who reqire tempary transportation <br>
             without the commitment of ownership.</p>
        </div>
-      <a href="Vehicle.php" class="btn">Register</a>
+      <a href="terms&cond/terms&cond.php" class="btn">Register</a>
 
   
     <div class="work">

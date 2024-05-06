@@ -49,11 +49,11 @@ if (isset($_POST['submit'])) {
             </div>
             <ul class="menu">
 
-                <li clas="menu1"><a href="">Sign-Out</a></li>
-                <li clas="menu1"><a href="aboutus.php">About-us</a></li>
+                <li clas="menu1"><a href="../index.php">Sign-Out</a></li>
+                <li clas="menu1"><a href="../aboutus.php">About-us</a></li>
                 <li clas="menu1"><a href="contact.php">Contact</a></li>
-                <li clas="menu1"><a href="vehicle.php">Vehicle</a></li>
-                <li clas="menu1"><a href="index.php">Home</a></li>
+                <li clas="menu1"><a href="../vehicle.php">Vehicle</a></li>
+                <li clas="menu1"><a href="../index.php">Home</a></li>
 
             </ul>
         </nav>
@@ -136,7 +136,7 @@ if (isset($_POST['submit'])) {
                 </div>
                 <div class="footerNav">
                     <ul>
-                        <li><a href="contact.php">Contact Us</a></li>
+                        <li><a href="">Contact Us</a></li>
                         <li><a href="">Termes & Condition</a></li>
                         <li><a href="">Privacy Policy</a></li>
                         <li><a href="">FAQs</a></li>

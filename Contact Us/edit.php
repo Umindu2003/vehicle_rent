@@ -1,5 +1,5 @@
 <?php
-$con = new mysqli('localhost', 'root', '', 'purledrive');
+$con = new mysqli('localhost', 'root', '', 'pearl_drive');
 
 if ($con->connect_error) {
     die("Connection failed: " . $con->connect_error);
