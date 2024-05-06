@@ -1,16 +1,16 @@
 <?php
-require '../connect.php';
+require 'connect.php';
 
 if(isset($_POST["submit"])){
     $email = $_POST["email"];
     $password = $_POST["password"];
-    $result = mysqli_query($con, "SELECT * FROM reg_user WHERE email = '$email'");
+    $result = mysqli_query($con, "SELECT * FROM log_admin WHERE a_email = '$email'");
     $row = mysqli_fetch_assoc($result);
     if(mysqli_num_rows($result) > 0){
-        if($password == $row["password"]){
+        if($password == $row["a_password"]){
             $_SESSION["login"] = true;
             $_SESSION["id"] = $row["id"];
-            header("Location: ../vehicle.php");
+            header("Location: admin.php");
         }
         else{
             echo
@@ -19,7 +19,7 @@ if(isset($_POST["submit"])){
     }
     else{
     echo
-    "<script> alert('User Not Registered'); </script>";
+    "<script> alert('Access Denied'); </script>";
     }
 }
 ?>
@@ -33,7 +33,7 @@ if(isset($_POST["submit"])){
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
     <!-- link the css file -->
-    <link rel="stylesheet" href="login_styles.css">
+    <link rel="stylesheet" href="admin_login.css">
 </head>
 
 <body>
@@ -41,7 +41,7 @@ if(isset($_POST["submit"])){
     <!-- login, register, terms box  -->
     <div class="wrapper">
 
-        <a href="../index.php">
+        <a href="index.php">
             <!-- close button  -->
             <span class="icon-close">
                 <ion-icon name="close"></ion-icon> 
@@ -50,7 +50,7 @@ if(isset($_POST["submit"])){
 
         <!----- Login form ----->
         <div class="form-box login">
-            <h2>Login</h2>
+            <h2>Admin</h2>
             <!-- ??? -->
             <form action="#" id="form" method="post">
 
@@ -78,24 +78,13 @@ if(isset($_POST["submit"])){
 
                 </div>
                 
-                <div class="remember_forgot_pw">
-                    <!-- remember me check box -->
+                <!-- <div class="remember_forgot_pw">
                     <label> <input type="checkbox">Remember me</label>
-                    <!-- forgot password link -->
                     <a href="#">Forgot Password?</a>
-                </div>
+                </div> -->
 
                 <!-- Login submit button  -->
                 <button type="submit" name="submit" class="btn">Login</button>
-
-                <div class="login-reg">
-                    <!-- ??  -->
-                    <p>Don't have an account? <a href="../terms&cond/terms&cond.php" class="register-link">Register</a></p>
-                </div>
-
-                <div class="admin_portal">
-                    <a href="../admin_login.php">Admin</a>
-                </div>
 
             </form>
         </div>
@@ -103,7 +92,7 @@ if(isset($_POST["submit"])){
 
     </div>
 
-    <script src="../login_reg.js"></script>
+    <script src="login_reg.js"></script>
 
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 
