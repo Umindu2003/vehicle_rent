@@ -94,7 +94,7 @@ if(isset($_POST["submit"])){
                 </div>
 
                 <div class="admin_portal">
-                    <a href="../admin_login.php">Admin</a>
+                    <a href="../admin portal/admin_login.php">Admin</a>
                 </div>
 
             </form>

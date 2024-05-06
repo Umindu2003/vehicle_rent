@@ -1,5 +1,5 @@
 <?php
-include 'connect.php';
+include '../connect.php';
 
 ?>
 
@@ -13,6 +13,8 @@ include 'connect.php';
 </head>
 
 <body>
+    <button class="lgout">Log out</button>
+
     <div class="admin-portal">
         <h1>Registered User Details</h1>
         <table class="user-table">
@@ -80,7 +82,7 @@ include 'connect.php';
 
         </table>
         
-        <button>Log out</button>
+        
 
     </div>
 </body>

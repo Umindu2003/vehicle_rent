@@ -1,11 +1,25 @@
 /* styles.css */
 @import url('http://fonts.googleapis.com/css2?family=Poppins'); 
 
-body {
-    font-family: Arial, sans-serif;
+
+* {
     margin: 0;
     padding: 0;
-    background-color: #ccc;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    min-height: 100vh;
+    background: url(background.png);
+    background-repeat: no-repeat;   
+    background-size: cover;
+    background-position: center;
+
 }
 
 .admin-portal {
@@ -23,13 +37,10 @@ button {
     width: 75px;
     border-radius: 5px;
     border: none;
-}
-
-button .edit {
     background: #827e7e;
 }
 
-button {
+button .edit {
     background: #827e7e;
 }
 

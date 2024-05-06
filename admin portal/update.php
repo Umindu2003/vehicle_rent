@@ -1,6 +1,6 @@
 
 <?php
-require 'connect.php';
+require '../connect.php';
 // include 'connect.php';
 $id=$_GET['updateid'];
 $sql="Select * from `reg_user` where user_id=$id";
@@ -10,7 +10,6 @@ $email = $row['email'];
 $password = $row['password'];
 $f_name = $row['f_name'];
 $l_name = $row['l_name'];
-// $gender = $row['gender'];
 $NIC = $row['NIC'];
 $DOB = $row['DOB'];
 $mobile = $row['mobile'];
@@ -22,7 +21,6 @@ if(isset($_POST['submit'])){
     $password = $_POST['password'];
     $f_name = $_POST['f_name'];
     $l_name = $_POST['l_name'];
-    // $gender = $_POST['gender'] ?? '';
     $NIC = $_POST['NIC'] ?? '';
     $DOB = $_POST['DOB'] ?? '';
     $mobile = $_POST['mobile'] ?? '';
@@ -64,10 +62,7 @@ if(isset($_POST['submit'])){
 
                 <div class="form1">
     
-                    <div class="input-box">                
-                        <!-- <span class="icon">
-                            <ion-icon name="mail"></ion-icon>
-                        </span> -->
+                    <div class="input-box">
                         <input type="email" id="email" name="email" autocomplete="off" value=<?php echo $email;?>>
                         <label>Email</label>
 
@@ -76,9 +71,6 @@ if(isset($_POST['submit'])){
                     </div>
     
                     <div class="input-box">
-                        <!-- <span class="icon">
-                            <ion-icon name="lock"></ion-icon>
-                        </span> -->
                         <input type="password" id="password" name="password" autocomplete="off" value=<?php echo $password;?>>
                         <label>Password</label>
 
@@ -93,62 +85,40 @@ if(isset($_POST['submit'])){
 
                     <div class="first-last">
 
-                        <div class="input-box">                 
-                            <!-- <span class="icon">
-                                <ion-icon name="person"></ion-icon>
-                            </span> -->
+                        <div class="input-box">
                             <input type="text" name="f_name" autocomplete="off" value=<?php echo $f_name;?>>
                             <label>First Name</label>
                         </div>
-                        <div class="input-box">                 
-                            <!-- <span class="icon">
-                                <ion-icon name="person"></ion-icon>
-                            </span> -->
+                        <div class="input-box">
                             <input type="text" name="l_name" autocomplete="off" value=<?php echo $l_name;?>>
                             <label>Last Name</label>
                         </div>
 
                     </div>
 
-                    <!-- <div class="gender">
-                        Gender:
-                        <input type="radio" name="gender" value="male"> <label>Male</label>
-                        <input type="radio" name="gender" value="female"> <label>Female</label>
-                    </div> -->
 
                     <div class="NIC-DOB">
 
-                        <div class="input-box">                
-                            <!-- <span class="icon">
-                                <ion-icon name="card"></ion-icon>
-                            </span> -->
+                        <div class="input-box">
                             <input type="text" name="NIC" autocomplete="off" value=<?php echo $NIC;?>>
                             <label>NIC</label>
                         </div>
     
-                        <div class="DOB">                
-                            <!-- <span class="icon">
-                                <ion-icon name="calendar"></ion-icon>
-                            </span> -->
+                        <div class="DOB">
+                            <label> DOB </label>
                             <input type="date" name="DOB" autocomplete="off" value=<?php echo $DOB;?>>
-                            <label>DOB</label>
+                            
                         </div>
 
                     </div>
 
-                    <div class="input-box">               
-                        <!-- <span class="icon">
-                            <ion-icon name="call"></ion-icon>
-                        </span> -->
+                    <div class="input-box">
                         <input type="text" name="mobile" autocomplete="off" value=<?php echo $mobile;?>>
                     
                         <label>Mobile</label>
                     </div>
 
-                    <div class="input-box">               
-                        <!-- <span class="icon">
-                            <ion-icon name="home"></ion-icon>
-                        </span> -->
+                    <div class="input-box">
                         <input type="text" name="address" autocomplete="off" value=<?php echo $address;?>>
                     
                         <label>Address</label>
@@ -164,7 +134,7 @@ if(isset($_POST['submit'])){
 
     </div>
 
-    <script src="login_reg.js"></script>
+    <script src="../login_reg.js"></script>
 
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 

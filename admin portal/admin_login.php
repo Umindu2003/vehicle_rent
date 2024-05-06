@@ -1,5 +1,5 @@
 <?php
-require 'connect.php';
+require '../connect.php';
 
 if(isset($_POST["submit"])){
     $email = $_POST["email"];
@@ -92,7 +92,7 @@ if(isset($_POST["submit"])){
 
     </div>
 
-    <script src="login_reg.js"></script>
+    <script src="../login_reg.js"></script>
 
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 
