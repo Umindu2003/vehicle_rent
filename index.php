@@ -19,8 +19,8 @@
             </div>
             <ul class="menu">
                 
-                <li clas="menu1"><a href="terms&cond/terms&cond.php">Register</a> </li>
-                <li clas="menu1"><a href="login/login.php">Login</a></li>
+                <!-- <li clas="menu1"><a href="terms&cond/terms&cond.php">Register</a> </li> -->
+                <li clas="menu1"><a href="pre_index.php">Logout</a></li>
                 <li clas="menu1"><a href="Aboutus.php">About-us</a></li>
                 <li clas="menu1"><a href="Contact Us/contact.php">Contact</a></li>
                 <li clas="menu1"><a href="Vehicle.php">Vehicle</a></li>
