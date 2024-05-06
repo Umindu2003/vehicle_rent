@@ -50,8 +50,8 @@
             <h4>I Agree to these Terms & Conditions</h4>
     
             <div class="buttons">
-                <a href="../index.php"><button class="grey">Decline</button></a>
-                <a href="../register/register.php"><button class="green">Aceept</button></a>
+                <button class="grey" onclick="location.href='../index.php'" >Decline</button>
+                <button class="green" onclick="location.href='../register/register.php'">Aceept</button>
             </div>
     
         </div>
