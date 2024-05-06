@@ -72,7 +72,7 @@ if(isset($_POST["submit"])){
         <div class="form-box register">
             <h2>Registration</h2>
             <!-- ??? -->
-            <form class="form" action="#" method="post" >
+            <form class="form" action="#" id="form" method="post" >
 
                 <div class="form1">
 
@@ -89,9 +89,12 @@ if(isset($_POST["submit"])){
                         <span class="icon">
                             <ion-icon name="mail"></ion-icon>
                         </span>
-                        <input type="email" required name="email" autocomplete="off">
+                        <input type="email" id="email" name="email" required autocomplete="off">
                         <!-- ??  -->
                         <label>Email</label>
+
+                        <span style="color:red" id="email_error"></span>
+
                     </div>
     
                     <div class="input-box">
@@ -99,9 +102,12 @@ if(isset($_POST["submit"])){
                         <span class="icon">
                             <ion-icon name="lock"></ion-icon>
                         </span>
-                        <input type="password" required name="password" autocomplete="off">
+                        <input type="password" id="password" name="password" required autocomplete="off">
                         <!-- ??  -->
                         <label>Password</label>
+
+                        <span style="color:red" id="password_error"></span>
+
                     </div>
 
                     <div class="input-box">
@@ -109,7 +115,7 @@ if(isset($_POST["submit"])){
                         <span class="icon">
                             <ion-icon name="lock"></ion-icon>
                         </span>
-                        <input type="password" required name="confirm_password" autocomplete="off">
+                        <input type="password" required id="conf_password" name="confirm_password" autocomplete="off">
                         <!-- ??  -->
                         <label>Confirm Password</label>
                     </div>
@@ -205,7 +211,8 @@ if(isset($_POST["submit"])){
 
     </div>
 
-    <script src="login-reg.js"></script>
+    <script src="../login_reg.js"></script>
+
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 
 </body>
