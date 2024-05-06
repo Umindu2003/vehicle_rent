@@ -90,7 +90,7 @@ if(isset($_POST["submit"])){
 
                 <div class="login-reg">
                     <!-- ??  -->
-                    <p>Don't have an account? <a href="../terms$cond/terms&cond.php" class="register-link">Register</a></p>
+                    <p>Don't have an account? <a href="../terms&cond/terms&cond.php" class="register-link">Register</a></p>
                 </div>
 
             </form>

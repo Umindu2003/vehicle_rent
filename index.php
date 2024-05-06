@@ -13,7 +13,7 @@
             </div>
             <ul>
                 <li>
-                <a href="terms$cond/terms$cond.php">Register</a> 
+                <a href="terms&cond/terms&cond.php">Register</a> 
                 <a href="login/login.php">Login</a>
                 <a href="#">about</a>
                 <a href="#">contact</a>

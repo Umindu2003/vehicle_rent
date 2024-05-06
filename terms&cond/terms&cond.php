@@ -14,7 +14,7 @@
 
         <div class="terms-box">
             
-            <h2>Terms & Conditions</h2>
+            <h2>To Register<br> Accept : Terms & Conditions</h2>
 
             <div class="terms-text">
                 
@@ -50,8 +50,8 @@
             <h4>I Agree to these Terms & Conditions</h4>
     
             <div class="buttons">
-                <a href="../register/register.php"><button class="green">Aceept</button></a>
                 <a href="../index.php"><button class="grey">Decline</button></a>
+                <a href="../register/register.php"><button class="green">Aceept</button></a>
             </div>
     
         </div>
