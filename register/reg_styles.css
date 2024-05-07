@@ -151,12 +151,12 @@ body {
     /* ?? */
     outline: none;
     font-size: 1em;
-    color: #162938;
+    /* color: #162938; */
     font-weight: 600;
     /* ?? */
     /* padding: 0 35px 0 5px; */
     cursor: pointer;
-    color: #94939396;
+    color: #ffffff;
 }
 
 .form2 .DOB label {
@@ -204,7 +204,7 @@ body {
     transform: translateY(-50%);
     /* ?? */
     font-size: 1em;
-    color: #162938;
+    color: #ffffff;
     font-weight: 500;
     /* ?? */
     pointer-events: none;
