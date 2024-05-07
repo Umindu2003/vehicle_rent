@@ -119,6 +119,7 @@ body {
 
 .form2 .gender {
     padding-top: 30px;
+    color: #ffffffa9;
     /* display: flex;
     gap: 5px; */
 }
@@ -141,6 +142,7 @@ body {
     border-bottom: 2px solid #162938;
     /* ?? */
     margin: 30px 0;
+    color: #ffffffa9;
 }
 
 .form2 .DOB input {
@@ -156,25 +158,9 @@ body {
     /* ?? */
     /* padding: 0 35px 0 5px; */
     cursor: pointer;
-    color: #ffffff;
+    color: #162938ba;
 }
 
-.form2 .DOB label {
-    /* ?? */
-    position: absolute;
-    top: 50%;
-    left: 5px;
-    /* ?? */
-    transform: translateY(-50%);
-    /* ?? */
-    font-size: 1em;
-    color: #162938;
-    font-weight: 500;
-    /* ?? */
-    pointer-events: none;
-    /* For .input-box input:focus~label, .input-box input:valid~label */
-    transition: .5s;
-}
 
 /* ???? */
 .form2 .DOB input:focus,
@@ -204,7 +190,7 @@ body {
     transform: translateY(-50%);
     /* ?? */
     font-size: 1em;
-    color: #ffffff;
+    color: #ffffffa9;
     font-weight: 500;
     /* ?? */
     pointer-events: none;
@@ -268,7 +254,7 @@ body {
 
 .login-reg {
     font-size: .9em;
-    color: #162938;
+    color: #cbcbcb9b;
     text-align: center;
     font-weight: 500;
     /* ??     add space 'between login button and register' */
