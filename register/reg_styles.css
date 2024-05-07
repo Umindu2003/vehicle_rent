@@ -131,11 +131,10 @@ body {
     border: none;
     outline: none;
     font-size: 1em;
-    color: #162938;
+    color: #ffffff;
     font-weight: 600;
     /* padding: 0 35px 0 5px; */
     cursor: pointer;
-    color: #94939396;
 }
 
 .form2 .DOB label {
