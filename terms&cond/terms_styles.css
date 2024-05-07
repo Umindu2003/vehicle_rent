@@ -2,49 +2,35 @@
 @import url('http://fonts.googleapis.com/css2?family=Poppins');
 
 
-/* ??  */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* ?? */
     font-family: 'Poppins', sans-serif;
 }
 
 body {
-    /* ?? */
     display: flex;
     justify-content: center;
-    /* ?? */
     align-items: center;
-    /* ?? */
     min-height: 100vh;
     background: url(terms.jpg);
-    background-repeat: no-repeat;   /*
-    /* ?? */
+    background-repeat: no-repeat;   
     background-size: cover;
-    /* ?? */
     background-position: center;
 }
 
 .wrapper {
-    /* ?? */
     position: relative;
     /* width: 400px; */
     width: 800px;
     /* height: 440px; */
-    height: 600px;
-    /* ?? */ 
+    height: 600px; 
     background: transparent;
-    /* ?? */
     border: 2px solid rgba(255, 255, 255, .5);
-    /* ?? */
     border-radius: 20px;
-    /* ?? */
     backdrop-filter: blur(20px);
-    /* ?? */
     box-shadow: 0 0 30px rgba(0, 0, 0, .5);
-    /* ?? */
     display: flex;
     justify-content: center; /*horizontally*/
     align-items: center; /*vertically*/
@@ -95,7 +81,6 @@ h2 {
 
 /* I Agree..  */
 .terms-box h4 {
-    /* ?? */
     font-size: 1em;
     text-align: right;
     padding: 10px 15px 25px 0;
@@ -116,7 +101,6 @@ h2 {
     font-size: 20px;
     font-weight: 500;
     color: #fff;
-    /* ??  */
     transition: .3s linear;
 }
 
