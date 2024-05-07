@@ -26,7 +26,6 @@ include '../connect.php';
                     <th>Password</th>
                     <th>First Name</th>
                     <th>Last Name</th>
-                    <!-- <th>Gender</th> -->
                     <th>NIC</th>
                     <th>Date of Birth</th>
                     <th>Mobile</th>
@@ -50,7 +49,6 @@ include '../connect.php';
                     $password=$row['password'];
                     $f_name=$row['f_name'];
                     $l_name=$row['l_name'];
-                    // $gender=$row['gender'];
                     $NIC=$row['NIC'];
                     $DOB=$row['DOB'];
                     $mobile=$row['mobile'];
