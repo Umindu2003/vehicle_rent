@@ -66,17 +66,22 @@ if(isset($_POST["submit"])){
                 </div>
 
                 <div class="input-box">
-                    
+                    <!-- ??  -->
                     <span class="icon">
                         <ion-icon name="lock"></ion-icon>
                     </span>
                     <input type="password" id="password" name="password" required>  
-                    
+                    <!-- ??  -->
                     <label>Password</label>
 
                     <span style="color:red" id="password_error"></span>
 
                 </div>
+                
+                <!-- <div class="remember_forgot_pw">
+                    <label> <input type="checkbox">Remember me</label>
+                    <a href="#">Forgot Password?</a>
+                </div> -->
 
                 <!-- Login submit button  -->
                 <button type="submit" name="submit" class="btn">Login</button>

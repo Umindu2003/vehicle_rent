@@ -50,7 +50,8 @@ if(isset($_POST["submit"])){
 
         <!----- Login form ----->
         <div class="form-box login">
-            <h2>Lo
+            <h2>Login</h2>
+            <!-- ??? -->
             <form action="#" id="form" method="post">
 
                 <div class="input-box">
@@ -65,12 +66,12 @@ if(isset($_POST["submit"])){
                 </div>
 
                 <div class="input-box">
-                    
+                    <!-- ??  -->
                     <span class="icon">
                         <ion-icon name="lock"></ion-icon>
                     </span>
                     <input type="password" id="password" name="password" required>  
-                    
+                    <!-- ??  -->
                     <label>Password</label>
 
                     <span style="color:red" id="password_error"></span>
@@ -88,7 +89,7 @@ if(isset($_POST["submit"])){
                 <button type="submit" name="submit" class="btn">Login</button>
 
                 <div class="login-reg">
-                    
+                    <!-- ??  -->
                     <p>Don't have an account? <a href="../terms&cond/terms&cond.php" class="register-link">Register</a></p>
                 </div>
 

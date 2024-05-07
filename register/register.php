@@ -34,6 +34,15 @@ if(isset($_POST["submit"])){
     }
 
 
+
+    // $sql="insert into `crud` (email,password,mobile) values ('$email','$password','$mobile')";
+    // $result=mysqli_query($con,$sql);
+    // if($result){
+    //     echo "Data inserted successfully";
+    // }
+    // else{
+    //     die(mysqli_error($con));
+    // }
 }
 ?>
 
@@ -65,17 +74,26 @@ if(isset($_POST["submit"])){
         <!----- Register form ----->
         <div class="form-box register">
             <h2>Registration</h2>
-            
+            <!-- ??? -->
             <form class="form" action="#" id="form" method="post" >
 
                 <div class="form1">
+
+                    <!-- <div class="input-box">                 
+                        <span class="icon">
+                            <ion-icon name="person"></ion-icon>
+                        </span>
+                        <input type="text" required>
+                        
+                        <label>User Name</label>
+                    </div>                     -->
     
-                    <div class="input-box">                
+                    <div class="input-box">                <!-- ??  -->
                         <span class="icon">
                             <ion-icon name="mail"></ion-icon>
                         </span>
                         <input type="email" id="email" name="email" required autocomplete="off">
-                    
+                        <!-- ??  -->
                         <label>Email</label>
 
                         <span style="color:red" id="email_error"></span>
@@ -83,12 +101,12 @@ if(isset($_POST["submit"])){
                     </div>
     
                     <div class="input-box">
-                    
+                        <!-- ??  -->
                         <span class="icon">
                             <ion-icon name="lock"></ion-icon>
                         </span>
                         <input type="password" id="password" name="password" required autocomplete="off">
-                    
+                        <!-- ??  -->
                         <label>Password</label>
 
                         <span style="color:red" id="password_error"></span>
@@ -96,12 +114,12 @@ if(isset($_POST["submit"])){
                     </div>
 
                     <div class="input-box">
-                    
+                        <!-- ??  -->
                         <span class="icon">
                             <ion-icon name="lock"></ion-icon>
                         </span>
                         <input type="password" required id="conf_password" name="confirm_password" autocomplete="off">
-                    
+                        <!-- ??  -->
                         <label>Confirm Password</label>
                     </div>
 
@@ -112,20 +130,20 @@ if(isset($_POST["submit"])){
 
                     <div class="first-last">
 
-                        <div class="input-box">                 
+                        <div class="input-box">                 <!-- ??   -->
                             <span class="icon">
                                 <ion-icon name="person"></ion-icon>
                             </span>
                             <input type="text" required name="f_name" autocomplete="off">
-                            
+                            <!-- ??   -->
                             <label>First Name</label>
                         </div>
-                        <div class="input-box">                
+                        <div class="input-box">                 <!-- ??  -->
                             <span class="icon">
                                 <ion-icon name="person"></ion-icon>
                             </span>
                             <input type="text" required name="l_name" autocomplete="off">
-                             
+                             <!-- ??   -->
                             <label>Last Name</label>
                         </div>
 
@@ -139,7 +157,7 @@ if(isset($_POST["submit"])){
 
                     <div class="NIC-DOB">
 
-                        <div class="input-box">               
+                        <div class="input-box">                <!-- ??  -->
                             <span class="icon">
                                 <ion-icon name="card"></ion-icon>
                             </span>
@@ -148,16 +166,19 @@ if(isset($_POST["submit"])){
                             <label>NIC</label>
                         </div>
     
-                        <div class="DOB">
+                        <div class="DOB">                 <!-- ??   -->
+                            <!-- <span class="icon">
+                                <ion-icon name="calendar"></ion-icon>
+                            </span> -->
                             DOB:
                             <input type="date" required name="DOB" autocomplete="off">
-                            
+                            <!-- ??   -->
                             <!-- <label>DOB</label> -->
                         </div>
 
                     </div>
 
-                    <div class="input-box">               
+                    <div class="input-box">                <!-- ??  -->
                         <span class="icon">
                             <ion-icon name="call"></ion-icon>
                         </span>
@@ -166,12 +187,12 @@ if(isset($_POST["submit"])){
                         <label>Mobile</label>
                     </div>
 
-                    <div class="input-box">               
+                    <div class="input-box">                <!-- ??  -->
                         <span class="icon">
                             <ion-icon name="home"></ion-icon>
                         </span>
                         <input type="text" required name="address" autocomplete="off">
-                    
+                        <!-- ??  -->
                         <label>Address</label>
                     </div>
 
@@ -182,7 +203,7 @@ if(isset($_POST["submit"])){
                 <button type="submit" name="submit" class="btn">Register</button>
 
                 <div class="login-reg">
-                
+                    <!-- ??  -->
                     <p>Already have an account? <a href="../login/login.php" class="login-link">Login</a></p>
                 </div>
 
