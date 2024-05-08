@@ -20,7 +20,7 @@
         
         
         <div style="text-align: center;">
-            <a href="User Feedbacks/index.php">OK</a>
+            <a href="User Feedbacks/feedback.php">OK</a>
         </div>
         
     </div>
