@@ -26,7 +26,7 @@ if(isset($_POST['submit'])){
     $mobile = $_POST['mobile'] ?? '';
     $address = $_POST['address'] ?? '';
     
-    $sql="update `reg_user` set user_id=$id, email='$email', password='$password', f_name='$f_name', l_name='$l_name', gender='$gender', NIC='$NIC', DOB='$DOB', mobile='$mobile', address='$address' where user_id=$id";
+    $sql="update `reg_user` set user_id=$id, email='$email', password='$password', f_name='$f_name', l_name='$l_name', NIC='$NIC', DOB='$DOB', mobile='$mobile', address='$address' where user_id=$id";
     $result=mysqli_query($con, $sql);
     if($result){
         // echo "Updated Successfully";
