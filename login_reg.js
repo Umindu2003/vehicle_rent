@@ -3,7 +3,7 @@ const email = document.getElementById('email');
 const password = document.getElementById('password');
 const form = document.getElementById('form');
 
-const name_error = document.getElementById('email_error');
+const email_error = document.getElementById('email_error');
 const password_error = document.getElementById('password_error');
 
 

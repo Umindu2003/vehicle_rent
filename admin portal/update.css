@@ -29,7 +29,7 @@ body {
 
 .form-box {
     /* transparent color  */
-    background-color: #8c94a77c;
+    background-color: #ffffffb0;
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
@@ -73,12 +73,12 @@ body {
     position: absolute;
     top: -10px;
     left: 10px;
-    background: #a2a8b371;
+    /* background: #a2a8b371; */
     padding: 0 5px;
-    color: #173879d5;
+    color: #0d59c3b1;
     font-size: 15px;
     font-weight: 700;
-    border: 1px solid #1d2b37d3;
+    /* border: 1px solid #1d2b37d3; */
 
 }
 
@@ -137,7 +137,7 @@ body {
 
 .DOB label {
     padding: 0 5px 2px 0;
-    color: #173879d5;
+    color: #0d59c3b1;
     font-weight: 700;
 }
 
